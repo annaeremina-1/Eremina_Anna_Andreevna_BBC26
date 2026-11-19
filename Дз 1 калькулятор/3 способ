@@ -1,0 +1,16 @@
+a = int(input("Число 1: "))
+b = int(input("Число 2: "))
+n = input("Операция: ")
+
+def abc(num1, num2, operation):
+    
+    if operation == '+':
+        print(num1 + num2)
+    elif operation == '-':
+        print(num1 - num2)
+    elif operation == '*':
+        print(num1 * num2)
+    elif operation == '/':
+        print(num1 / num2)
+
+abc(a, b, n)
